@@ -1,0 +1,66 @@
+# General Ignore Rules
+**/documentation/
+**.o
+**.exe
+**.zip
+**.class
+**.jar
+!**gradle-wrapper.jar
+**.pyc
+**/docs
+
+# Binary Specific Ignore rules
+**/ll2
+**leak.out*
+**storage
+**runShapes
+**runshapes
+**updateRoom
+**registration
+**pointerReview
+**generateBinaryTree
+
+**/build/
+**/.gradle/
+
+# Eclipse Project Ignore Rules
+**.project
+**.settings
+**.classpath
+
+# Latex Ignore Rules
+**.aux
+
+# Scratch (temp) File & Directory Ignore rules
+Scratch
+**.bak
+
+# Vim rules
+**.swp
+
+# Python Coverage (coverage.py) Rules
+**/.coverage
+**/htmlcov
+
+# Python Disttools
+MANIFEST
+
+# Python Tox
+**.tox
+
+# Style Check reports
+**style-check*
+
+# Rust
+**/target
+
+# output comparison
+**/out-Rust.txt
+**/out-rust.txt
+**/out-cpp.txt
+**/ex*.txt
+
+# Gcovr rules
+**/source/*.html
+**.gcda
+**.gcno
